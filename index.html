@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-<style>
+  <link rel="stylesheet" href="styles.css">
 
-body{
-margin: 0;
-font-family:Arial; sans-serif;
-line-height: 1.6;
-}
 
-header,section,footer{
-padding: 40px 20px;
-max-width: 900px;
-margin: auto;
-}
 
-nav{
-padding: 15px 20px;
-text-align: center;
-border-bottom: 1px solid #ddd;
-}
 
-nav a{
-margin: 0 10px;
-text-decoration: none;
-}
 
-section{
-border-bottom: 1px solid #eee;
-}
 
-ul{
-padding-left: 20px;
-}
 
-</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </head>
 <body>
@@ -43,56 +50,384 @@ padding-left: 20px;
 <!--Header-->
 
 <header>
-<h1>Your Name</h1>
+<div class="container">
+<h1 class="name-title">Buthma Menali</h1>
+<p class="tagline">Information Systems Undergraduate | Freelance Designer & Creative Writer | UI/UX Enthusiast</p>
+</div>
+</header>
 
 <!--Navigation-->
-
 <nav>
+<div class="container">
 <a href="#about">About<a>
+<a href="#education">Education & Experience</a>
 <a href="#skills">Skills<a>
-<a href="#project">Project<a>
+<a href="#project">Projects<a>
+<a href="#volunteering">Volunteering</a>
+<a href="#portfolio">Designs & Publications</a>
 <a href="#contact">Contact<a>
+</div>
 </nav>
 
 <!--About-->
-
-<section id="skills">
-<h2>About Me</h2>
-<p>Brief introduction about me.</p>
+<section id="about">
+<div class="container">
+  <h2>About Me</h2>
+  <div class="about-content-wrapper">
+      <div class="photo-container">
+        <div class="photo-placeholder">
+          <img src="D:\VS Code\My Portfolio\Buthma Menali.png" width="280" height="600">
+        </div>
+      </div>
+    <div class="about-text">
+      <p>Hello! I'm a passionate undergraduate in the Faculty of Computing at the University of Sri Jayewardenepura, Sri Lanka, pursuing a Bachelor of Computing Honours in Information Systems degree.</p>
+      <p>I'm dedicated to creating innovative solutions and continuously expanding my technical expertise. I also enjoy writing and making visually engaging and meaningful designs that connect with people.</p>
+    </div>
+  </div>
+</div>
 </section>
+
+<!-- Education & Experience -->
+<section id="education">
+<div class="container">
+      <h2>Education & Experience</h2>
+  <div class="education-experience-wrapper">
+
+      <!-- Education -->
+       <div class="subsection">
+          <h3 class="subsection-title">Education</h3>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                  <h4>University of Sri Jayewardenepura, Sri Lanka</h4>
+                  <span class="timeline-date">June 2023 - Present (Reading)</span>
+              </div>
+             <p class="timeline-position">Bachelor of Computing (Honours)</p>
+             <ul class="timeline-details">
+               <li>Major: Information Systems</li>
+             </ul>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-header">
+                  <h4>Rathnawali Balika Vidyalaya, Gampaha, Sri Lanka</h4>
+                  <span class="timeline-date">Jan 2011 - Aug 2020</span>
+              </div>
+              <ul class="timeline-details">
+                <li>Successfully Passed G.C.E. (A/L) with 2Bs and a C | Major: Biology Stream</li>
+                <li>Successfully Passed G.C.E. (O/L) with 8As and a B</li>
+              </ul>
+            </div>
+       </div>
+
+      <!-- Experience -->
+        <div class="subsection">
+           <h3 class="subsection-title">Experience</h3>
+
+              <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4>QuidRobo (Remote)</h4>
+                    <span class="timeline-date">Oct 2025 - Present</span>
+                  </div>
+                    <p class="timeline-position">Freelance Graphic Designer</p>
+                    <ul class="timeline-details">
+                        <li>Designs creative visuals for digital platforms, mainly for social media posts</li>
+                        <li>Collaborates remotely with clients to understand brand identity</li>
+                        <li>Deliver high-quality designs within deadlines while adapting to client feedback and revisions</li>
+                    </ul>
+              </div>
+
+              <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4>Wizmedia (Remote)</h4>
+                    <span class="timeline-date">Aug 2024 – June 2025</span>
+                  </div>
+                    <p class="timeline-position">YouTube Shorts Writer</p>
+                    <ul class="timeline-details">
+                        <li>Researched trending topics to develop engaging YouTube Shorts scripts</li>
+                        <li>Adapted writing style to suit different niches and target audiences</li>
+                        <li>Wrote concise, creative, and attention-grabbing scripts tailored for short-form content</li>
+                    </ul>
+              </div>
+
+              <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4>Perfect E-Biz Solutions (Remote)</h4>
+                    <span class="timeline-date">Mar 2023 – Sep 2023</span>
+                  </div>
+                    <p class="timeline-position">Web Content Writer and Article Writer</p>
+                    <ul class="timeline-details">
+                        <li>Boosted website traffic by 30% through SEO-optimized content</li>
+                        <li>Enhanced user engagement by creating targeted, audience-focused articles</li>
+                        <li>Improved readability by editing and proofreading for clarity and tone consistency</li>
+                    </ul>
+              </div>
+
+              <div class="timeline-item">
+                  <div class="timeline-header">
+                    <h4>BOC, Head Office</h4>
+                    <span class="timeline-date">Apr 2022 – Sep 2022</span>
+                  </div>
+                    <p class="timeline-position">School-leaver Trainee (NRFC Department)</p>
+                    <ul class="timeline-details">
+                        <li>Strengthened customer relationships through prompt and efficient service</li>
+                        <li>Ensured compliance by accurately handling NRFC documentation and transactions</li>
+                        <li>Improved data accuracy by maintaining precise records for all account activities</li>
+                        <li>Supported operational efficiency by collaborating with cross-functional teams</li>
+                    </ul>
+              </div>
+        </div>
+  </div>
+</div>
+</section>
+
 
 <!--Skills-->
 
 <section id="skills">
-<h2>Skills</h2>
-<ul>
-<li>Skill 1</li>
-<li>Skill 2</li>
-<li>Skill 3</li>
-</ul>
-</section>
+<div class="container">
+  <h2>Skills</h2>
+    <div class="skills-grid">
 
+      <div class="skill-category">
+        <h3>Programming</h3>
+        <ul>
+          <li>HTML</li>
+          <li>Java</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Software</h3>
+        <ul>
+           <li>ArgoUML</li>
+           <li>VSCode</li>
+           <li>Netbeans</li>
+           <li>Trello</li>
+           <li>Unity</li>
+           <li>Canva</li>
+           <li>Adobe Photoshop</li>
+           <li>Microsoft Office Tools</li>
+           <li>WordPress</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+       <h3>Other Skills</h3>
+       <ul>
+         <li>Creative Writing</li>
+         <li>Designing</li>
+         <li>Photo and Video Editing</li>
+         <li>Communication</li>
+         <li>SEO Writing</li>
+       </ul>
+      </div>
+    </div>
+</div>
+</section>
 
 <!--Projects-->
 
 <section id="projects">
+<div class="container">
 <h2>Projects</h2>
-<article>
-  <h3>Project title</h3>
-  <p>Short description about the project.</p>
+<div class="projects-grid">
+
+<article class="project-card">
+  <h3>PrimeHeal - Group Project</h3>
+  <div class="project-role">Role: UI/UX Design Support</div>
+  <p class="project-description">PrimeHeal provides a single, web-based platform specifically designed for a single medical center named PrimeHeal Clinic. It streamlines appointment management, integrates role-based access, and adds functionality for receptionists, accountants, and online payments.</p>
+  <div class="project-placeholder">
+    <img src="D:\VS Code\My Portfolio\PrimeHeal.png"  width="500" height="278">
+  </div>
 </article>
+
+
+<article class="project-card">
+  <h3>Verdict AI - Competition Project</h3>
+  <div class="project-role">Role: UI/UX Design Support</div>
+  <p class="project-description">Our team, Codeforge, was qualified for the semi-finals at HackX 9.0! (a renowned inter-university startup challenge organized by UOK).</p>
+  <div class="project-placeholder">
+    <img src=""  width="500" height="278">
+  </div>
+</article>
+
+
+<article class="project-card">
+  <h3>AI-Powered Breakup Recovery Assistant</h3>
+  <div class="project-role">Role: System Development & UI/UX Design</div>
+  <p class="project-description">An intelligent, conversational system designed to act as a supportive digital companion. This AI assistant provides empathetic emotional support, helps users process their feelings, guides them toward emotional closure, and assists in planning positive steps for personal growth and recovery.</p>
+  <div class="project-placeholder">
+    <img src=""  width="500" height="278">
+  </div>
+</article>
+
+
+<article class="project-card">
+  <h3>Oven Story - Group Project</h3>
+  <div class="project-role">Role: UI/UX Design Support</div>
+  <p class="project-description">A bakery website project showcasing modern web development practices and user-centered design principles.</p>
+  <div class="project-placeholder">
+    <img src="D:\VS Code\My Portfolio\OvenStory.png"  width="942" height="692">
+  </div>
+</article>
+
+
+<article class="project-card">
+  <h3>E-learning Course Development - Active Listening Basics</h3>
+  <div class="project-role">Role: Individual project</div>
+  <p class="project-description">Active Listening Basics is a short, interactive learning module developed under the ‘Life Skills for Better Health’ course. It provides a focused, practice-oriented approach to improving communication.</p>
+  <div class="project-placeholder">
+    <img src=""  width="500" height="278">
+  </div>
+</article>
+</div>
+</div>
 </section>
+
+ <!-- Volunteering -->
+
+<section id="volunteering">
+   <div class="container">
+      <h2>Volunteering</h2>
+            
+         <div class="volunteering-item">
+           <div class="vol-header">
+              <h4>Editor - Rotaract Club of University of Sri Jayewardenepura</h4>
+               <span class="vol-date">June 2025 - Present</span>
+            </div>
+            <p class="vol-period">RI year 2025-26</p>
+            <ul class="vol-details">
+              <li>Managing the RACUSJ Blog</li>
+              <li>Checking all the editorial-related work in the club</li>
+              <li>Overlooking the International Service Avenue of the club</li>
+            </ul>
+         </div>
+
+         <div class="volunteering-item">
+           <div class="vol-header">
+             <h4>Finance Avenue Member - Rotaract Club of University of Sri Jayewardenepura</h4>
+             <span class="vol-date">Mar 2024 - Jun 2025</span>
+            </div>
+            <p class="vol-achievements">Achievements & Contributions:</p>
+            <ul class="vol-details">
+              <li>Most Outstanding Content Writer of RACUSJ for RI year 2024-25</li>
+              <li>Best Graphic Designer Nominee of RACUSJ for RI year 2024-25</li>
+              <li>Rotaractor of the month of May 2025 - Nominee</li>
+              <li>Public Relations (PR) team member for Biz Icon conducted by Finance Avenue</li>
+              <li>Rotaractor of the month of February 2025 - Nominee</li>
+              <li>Head of the Editorial team for Path Venture 2025 conducted by Sports and Recreational Activities Avenue</li>
+              <li>Finance team member for Awurudu Fest'24 conducted by Public Relations & Club Service Avenue</li>
+             </ul>
+           </div>
+
+         <div class="volunteering-item">
+            <div class="vol-header">
+               <h4>Finance Committee Member - IEEE Student Branch - University of Sri Jayewardenepura</h4>
+                <span class="vol-date">Aug 2023 - Dec 2024</span>
+            </div>
+             <ul class="vol-details">
+                <li>Programme and Finance committee member for IEEEXtreme 18.0 (2024)</li>
+                <li>Finance team member for J'pura Xtreme 1.0 (2024)</li>
+                <li>Volunteer of the month of April (2024)</li>
+                <li>Finance team member for Heenayata Sawiyak 1.0 (2024)</li>
+                <li>Finance team member for JamborIEEE 2023</li>
+             </ul>
+          </div>
+
+          <div class="volunteering-item">
+            <div class="vol-header">
+              <h4>Editorial Panel Member - Rotaract Club of University of Sri Jayewardenepura</h4>
+              <span class="vol-date">Mar 2024 - Jun 2025</span>
+             </div>
+               <ul class="vol-details">
+                 <li>Authored 5 articles for the official Rotaract Club of University of Sri Jayewardenepura (RACUSJ) blog, contributing to the club's digital presence and storytelling through creative and engaging content.</li>
+		 <li>Managing the blog's PR content by creating blog headers.</li>
+               </ul>
+          </div>
+
+          <div class="volunteering-item">
+            <div class="vol-header">
+              <h4>Finance Committee Member - IEEE Techverse Sri Lanka (Student Activities Committee)</h4>
+              <span class="vol-date">Jan 2025 - Jan 2026</span>
+             </div>
+               <ul class="vol-details">
+                 <li>Volunteered as a Finance Committee Member for IEEE TechVerse Sri Lanka, where I created the budget plan, supported the project proposal, and assisted the Secretary Team with script writing</li>
+                  <li>Helped as both a finance and a secretary member to organize Techfest Sri Lanka 2025</li>
+                </ul>
+           </div>
+
+           <div class="volunteering-item">
+             <div class="vol-header">
+               <h4>Editorial Panel Member - EduACS - Association of Computing Students</h4>
+               <span class="vol-date">Jan 2024 - May 2025</span>
+              </div>
+                <p class="vol-org">University of Sri Jayewardenepura</p>
+                <ul class="vol-details">
+                    <li>Volunteered in video editing and caption writing</li>
+                </ul>
+            </div>
+</div>
+</section>
+
+<!-- Designs & Publications -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Designs & Publications</h2>
+            
+            <div class="portfolio-subsection">
+                <h3 class="portfolio-subtitle">Designs</h3>
+                <div class="editorial-list">
+                    <div class="editorial-placeholder">
+			<p>🎨 Design Portfolio</p>
+                        <p class="placeholder-instruction">Click below link to check all designs I have done</p>
+                        <a href="https://buthmamenali.portfoliobox.net/portfolio">Design Portfolio</a>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="portfolio-subsection">
+                <h3 class="portfolio-subtitle">Publications</h3>
+                <div class="editorial-list">
+                    <div class="editorial-placeholder">
+                        <p>📝 Published Articles</p>
+                        <ul class="article-links">
+			    <li><a href="https://racusj.com/35th-rotaract-district-assembly/">35th Rotaract District Assembly – RACUSJ stood steady with pride again!</a></li>
+                            <li><a href="https://racusj.com/the-14th-ri-year-of-racusj/">The 14th RI Year of RACUSJ – A year that felt like home</a></li>
+                            <li><a href="https://racusj.com/black-holes-the-most-bizarre-mystery-of-the-universe/">Black Holes: The Most Bizarre Mystery of the Universe</a></li>
+                            <li><a href="https://racusj.com/accelerate-action-driving-change-for-gender-equality-on-international-womens-day-2025/">Accelerate Action: Driving Change for Gender Equality on International Women’s Day 2025</a></li>
+			    <li><a href="https://racusj.com/international-day-of-non-violence-the-politics-of-ordinary-people/">International day of Non-Violence: The Politics of Ordinary People</a></li>
+			    <li><a href="https://medium.com/@buthmamenali">Medium Account</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <!--Contact-->
 
 <section id="contact">
+<div class="container">
 <h2>Contact</h2>
-<p>Email: buthmamenali@gmail.</p>
-<p>GitHub|LinkedIn|Website</p>
+<div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:buthmamenali@gmail.com">buthmamenali@gmail.com</a>
+                    </div>
+                    <div class="contact-links">
+                        <a href="https://github.com/yourusername" target="_blank" class="contact-btn">GitHub</a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-btn">LinkedIn</a>
+                        <a href="https://tryhackme.com/p/yourusername" target="_blank" class="contact-btn">TryHackMe</a>
+                        <a href="#" target="_blank" class="contact-btn">Website</a>
+                    </div>
+</div>
+</div>
 </section>
 
 <footer>
-<p>©2025 Your Name</p>
+<p>©2025 Buthma Menali</p>
 </footer>
 
 </body>

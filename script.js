@@ -1,4 +1,3 @@
-// Smooth scrolling for navigation links
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -14,7 +13,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Add active class to navigation on scroll
 window.addEventListener('scroll', () => {
     let current = '';
     const sections = document.querySelectorAll('section');
@@ -35,7 +33,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Add fade-in animation on scroll
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
